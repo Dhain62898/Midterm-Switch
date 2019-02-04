@@ -1,4 +1,13 @@
- <?php
+<!DOCTYPE html>
+<html>
+<title>
+<p> " Color Switching "</p>
+    
+</title>
+<body>
+<?php
+
+
 $favcolor = "red";
 
 switch ($favcolor) {
@@ -14,4 +23,6 @@ switch ($favcolor) {
     default:
         echo "Your favorite color is neither black, pink, nor orange!";
 }
-?> 
+?>
+    </body>
+</html>
